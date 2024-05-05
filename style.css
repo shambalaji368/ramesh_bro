@@ -1,0 +1,83 @@
+.main{
+    background-image:url(./images/home_chimney.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.nav-1{
+    background-color: transparent;
+    color:black;
+    font-size: large;
+}
+
+.nav-2{
+    height: 75px;
+}
+
+.nav-2 .nav-left a{
+    text-decoration: transparent;
+    color: black;
+    padding: 0 10px 0 10px;
+}
+
+.nav-2 .nav-right a{
+    text-decoration: transparent;
+    color: black;
+    padding: 0 10px 0 10px;
+}
+
+.body-data{
+    height: 580px;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.content-services img{
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 10px;
+}
+
+.services-1{
+    width: 250px;
+}
+
+.services-description-content{
+    font-size:medium;
+}
+
+.about-us-img{
+    border-radius: 15px;
+
+}
+
+.about-us-description{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.gallery img{
+    height: 200px;
+    margin: 2rem;
+    border-radius: 15px;
+}
+
+.quotes{
+     /* The image used */
+  background-image:  linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('.//images/carousel_imgae.jpg');
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  border-radius: 15px;
+}
+
